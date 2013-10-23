@@ -17,17 +17,16 @@
 /**
  * Version details
  *
- * @package    repository
- * @subpackage kaltura_uploader
+ * @package    repository_kaltura_uploader
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2012121900;        // The current plugin version (Date: YYYYMMDDXX)
-$plugin->requires  = 2011033007;        // Requires this Moodle version
-$plugin->component = 'repository_kaltura_uploader'; // Full name of the plugin (used for diagnostics)
-$plugin->release   = 'Kaltura release 3.0.91';
+$plugin->version   = 2012121904;
+$plugin->requires  = 2011120500;
+$plugin->component = 'repository_kaltura_uploader';
+$plugin->release   = 'Kaltura release 3.0.97 (RL: 2.2.1.3)';
 
 $plugin->dependencies = array(
     'local_kaltura' => 2012121900
